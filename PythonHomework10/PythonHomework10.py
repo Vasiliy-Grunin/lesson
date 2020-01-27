@@ -1,0 +1,7 @@
+arr1=list()
+arr2=list()
+arr3=list()
+arr1=input("write 1 list ")
+arr2=input("write 2 list ")
+arr3=list(set(arr1)-set(arr2))
+print(arr3)
