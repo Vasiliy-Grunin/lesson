@@ -3,8 +3,8 @@ from website_alive import make_request
 
 
 def main():
-    # url=input("write url: ")
-    url = "https://api.github.com"
+    url=str(input("write url: "))
+    #url = "https://api.github.com"
     site = check_response.foo_site(url)
     print(make_request.foo_answer(site))
 
