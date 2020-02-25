@@ -1,0 +1,1 @@
+SELECT * FROM sotrudnik.sotrudnik WHERE money<30000;

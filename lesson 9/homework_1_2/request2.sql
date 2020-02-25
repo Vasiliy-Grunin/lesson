@@ -1,0 +1,1 @@
+SELECT * FROM sotrudnik.sotrudnik WHERE money<30000 and position_in_company='developer';
